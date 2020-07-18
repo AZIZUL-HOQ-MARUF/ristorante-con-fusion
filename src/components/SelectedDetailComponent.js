@@ -8,7 +8,7 @@ function SelectedDetail(props) {
         return (
             <div className="col-xs-12 col-md-5 col-xl-5 m-1">
                 <Card>
-                    <CardImg top src={props.detail.image} alt={props.detail.name} />
+                    <CardImg top src={process.env.PUBLIC_URL + props.detail.image} alt={props.detail.name} />
                     <CardBody>
                         <CardTitle>{props.detail.name}</CardTitle>
                         <CardText>{props.detail.description}</CardText>

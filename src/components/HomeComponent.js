@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reac
 const RenderCard = ({ item }) => {
     return (
         <Card>
-            <CardImg src={item.image} alt={item.name} height="348" width="348" />
+            <CardImg src={process.env.PUBLIC_URL + item.image} alt={item.name} height="348" width="348" />
             <CardBody>
                 <CardTitle>{item.name}</CardTitle>
                 {item.designation ? <CardSubtitle>{item.designation}</CardSubtitle> : null}
