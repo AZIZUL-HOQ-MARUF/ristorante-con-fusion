@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Home from './HomeComponent'
 import Menu from './MenuComponent'
 import Contact from './ContactComponent'
-// import Dishdetail from './DishdetailComponent'
+import Dishdetail from './DishdetailComponent'
 import Header from './HeaderComponent'
 import Footer from './FooterComponent'
 import { Switch, Route, Redirect } from 'react-router-dom'
@@ -35,12 +35,19 @@ class Main extends Component {
                     leader={this.state.leaders.find(leader => leader.featured)} />
             );
         }
+        const DishWithId = ({ match }) => {
+            return (
+                <Dishdetail dishDetail={this.state.dishes.find(dish => dish.id === parseInt(match.params.dishId))}
+                    comments={this.state.comments.filter(comment => comment.dishId === parseInt(match.params.dishId))}/>
+            );
+        }
         return (
             <div>
                 <Header />
                 <Switch>
                     <Route path="/home" component={HomePage} />
                     <Route exact path="/menu" component={() => <Menu disheMenu={this.state.dishes} />} />
+                    <Route path="/menu/:dishId" component={DishWithId} />
                     <Route exact path="/contactus" component={Contact} />
                     <Redirect to="/home" />
                 </Switch>
