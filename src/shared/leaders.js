@@ -29,7 +29,7 @@ export const LEADERS = [
     {
       id: 3,
       name: 'Alberto Moreno',
-      image: '/assets/images/azizul.jpg',
+      image: '/assets/images/azizul1.jpg',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,
