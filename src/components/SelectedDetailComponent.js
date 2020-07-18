@@ -6,7 +6,7 @@ function SelectedDetail(props) {
         return <div></div>
     } else {
         return (
-            <div>
+            <div className="col-xs-12 col-md-5 col-xl-5 m-1">
                 <Card>
                     <CardImg top src={props.detail.image} alt={props.detail.name} />
                     <CardBody>

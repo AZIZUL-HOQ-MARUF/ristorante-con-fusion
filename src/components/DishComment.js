@@ -10,7 +10,8 @@ function DishComments(props) {
         return <li key={i}>{comment.comment} <br />{'-- ' + comment.author + ', ' + date.toLocaleDateString(undefined, options)}</li>
     });
     return (
-        <div>
+        <div className="col-xs-12 col-md-5 col-xl-5 m-1">
+            <h4>Comments</h4>
             <ul className="list-unstyled">
                 {liList}
             </ul>
