@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
 const RenderCard = ({ item }) => {
     return (
-        <Card>
+        <Card key={item.id}>
             <CardImg src={process.env.PUBLIC_URL + item.image} alt={item.name} height="348" width="348" />
             <CardBody>
                 <CardTitle>{item.name}</CardTitle>
