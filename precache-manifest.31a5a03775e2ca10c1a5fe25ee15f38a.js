@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "129b1a6ca9c91211cc79f790f6efb7a5",
+    "revision": "f0b05ef752ee871687aa59e8dc22e14d",
     "url": "/ristorante-con-fusion/index.html"
   },
   {
-    "revision": "56487d19878acb9a0697",
-    "url": "/ristorante-con-fusion/static/css/2.f38ffca4.chunk.css"
+    "revision": "8a43ce6f6fd8fab39fdd",
+    "url": "/ristorante-con-fusion/static/css/2.623f1326.chunk.css"
   },
   {
-    "revision": "8fdb112c44346a7600c4",
+    "revision": "7017ec35ec2eb52bef40",
     "url": "/ristorante-con-fusion/static/css/main.64c871f9.chunk.css"
   },
   {
-    "revision": "56487d19878acb9a0697",
-    "url": "/ristorante-con-fusion/static/js/2.c81362fa.chunk.js"
+    "revision": "8a43ce6f6fd8fab39fdd",
+    "url": "/ristorante-con-fusion/static/js/2.f20becaf.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/ristorante-con-fusion/static/js/2.c81362fa.chunk.js.LICENSE.txt"
+    "url": "/ristorante-con-fusion/static/js/2.f20becaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fdb112c44346a7600c4",
-    "url": "/ristorante-con-fusion/static/js/main.ebdfcced.chunk.js"
+    "revision": "7017ec35ec2eb52bef40",
+    "url": "/ristorante-con-fusion/static/js/main.f4a29418.chunk.js"
   },
   {
     "revision": "c188de432637fbf0683d",

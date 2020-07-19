@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/ristorante-con-fusion/static/css/main.64c871f9.chunk.css",
-    "main.js": "/ristorante-con-fusion/static/js/main.ebdfcced.chunk.js",
-    "main.js.map": "/ristorante-con-fusion/static/js/main.ebdfcced.chunk.js.map",
+    "main.js": "/ristorante-con-fusion/static/js/main.f4a29418.chunk.js",
+    "main.js.map": "/ristorante-con-fusion/static/js/main.f4a29418.chunk.js.map",
     "runtime-main.js": "/ristorante-con-fusion/static/js/runtime-main.204c8645.js",
     "runtime-main.js.map": "/ristorante-con-fusion/static/js/runtime-main.204c8645.js.map",
-    "static/css/2.f38ffca4.chunk.css": "/ristorante-con-fusion/static/css/2.f38ffca4.chunk.css",
-    "static/js/2.c81362fa.chunk.js": "/ristorante-con-fusion/static/js/2.c81362fa.chunk.js",
-    "static/js/2.c81362fa.chunk.js.map": "/ristorante-con-fusion/static/js/2.c81362fa.chunk.js.map",
+    "static/css/2.623f1326.chunk.css": "/ristorante-con-fusion/static/css/2.623f1326.chunk.css",
+    "static/js/2.f20becaf.chunk.js": "/ristorante-con-fusion/static/js/2.f20becaf.chunk.js",
+    "static/js/2.f20becaf.chunk.js.map": "/ristorante-con-fusion/static/js/2.f20becaf.chunk.js.map",
     "index.html": "/ristorante-con-fusion/index.html",
-    "precache-manifest.9efbaf1dd9cbd8df724a01be7f5aad77.js": "/ristorante-con-fusion/precache-manifest.9efbaf1dd9cbd8df724a01be7f5aad77.js",
+    "precache-manifest.31a5a03775e2ca10c1a5fe25ee15f38a.js": "/ristorante-con-fusion/precache-manifest.31a5a03775e2ca10c1a5fe25ee15f38a.js",
     "service-worker.js": "/ristorante-con-fusion/service-worker.js",
-    "static/css/2.f38ffca4.chunk.css.map": "/ristorante-con-fusion/static/css/2.f38ffca4.chunk.css.map",
+    "static/css/2.623f1326.chunk.css.map": "/ristorante-con-fusion/static/css/2.623f1326.chunk.css.map",
     "static/css/main.64c871f9.chunk.css.map": "/ristorante-con-fusion/static/css/main.64c871f9.chunk.css.map",
-    "static/js/2.c81362fa.chunk.js.LICENSE.txt": "/ristorante-con-fusion/static/js/2.c81362fa.chunk.js.LICENSE.txt",
+    "static/js/2.f20becaf.chunk.js.LICENSE.txt": "/ristorante-con-fusion/static/js/2.f20becaf.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/ristorante-con-fusion/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.204c8645.js",
-    "static/css/2.f38ffca4.chunk.css",
-    "static/js/2.c81362fa.chunk.js",
+    "static/css/2.623f1326.chunk.css",
+    "static/js/2.f20becaf.chunk.js",
     "static/css/main.64c871f9.chunk.css",
-    "static/js/main.ebdfcced.chunk.js"
+    "static/js/main.f4a29418.chunk.js"
   ]
 }
